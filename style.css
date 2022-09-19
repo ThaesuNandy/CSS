@@ -1,0 +1,244 @@
+*{
+	font-family: cursive;
+}
+body{
+margin: 0px;
+padding: 0px;
+}
+
+
+.navbar{
+	background: pink;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px #ddd;
+	position: fixed;
+	width: 100%;
+
+}
+.navbar a {
+	color: #000;
+text-decoration: none;
+float: left;
+padding: 16px;
+font-size: 18px;
+font-weight:bold;
+}
+.btn{
+	padding: 16px;
+font-size: 18px;
+font-weight:bold;
+background: pink;
+border: none;
+}
+.dropdown{
+	float: left;
+}
+.sub{
+	position: fixed;
+	display: none;
+}
+.sub a{
+	display: block;
+	float: none;
+	background: pink;
+
+}
+.navbar a:hover,.btn:hover{
+	background: gold;
+	color: #fff;
+
+}
+.dropdown:hover .sub{
+	display: block;
+}
+.welcome{
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+
+}
+.welcome div{
+	width: 40%;
+	margin: 10px;
+}
+.welcome p{
+	font-size: 18px;
+	line-height: 40px;
+	text-align: justify;
+}
+.welcome h1{
+	color: red;
+}
+.welcome button,.contact button{
+	background: pink;
+	color: black;
+	font-size: 18px;
+	padding: 8px 14px;
+	border-radius: 20px;
+/*	box-shadow: 5px 5px 10px #aaa;*/
+/*	margin: 30px;*/
+margin: 10px;
+	border: 5px solid pink;
+
+}
+.activity{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin: 20px;
+}
+.activity > div{
+	width: 25%;
+	margin: 10px;
+	padding-left: 20px;
+}
+.activity img{
+	border-radius: 30px;
+	margin: 20px;
+	padding-top: 10px;
+}
+span{
+color: red;
+}
+.test{
+	color: gery;
+}
+.activity1{
+	display: flex;
+	justify-content: center;
+}
+.activity1 div{
+	background:url('img/22.3.jpg');
+	background-repeat: no repeat;
+	background-size: 100% 100%;
+	color: sandybrown;
+	padding: 0px 10px;
+	margin: 10px;
+	border-radius: 15px;
+}
+.about{
+display: flex;
+justify-content: center;
+}
+.about div{
+	width: 40%;
+	margin: 10px;
+	text-align: right;
+}
+	
+#activity, #gallery, #contact, #about, #cele, #video{
+	text-align: center;
+	margin: 70px;
+}
+.gallery{
+	display: flex;
+	justify-content: center;
+}
+.gallery div{
+	width: 20%;
+	margin: 7px;
+}
+.gallery img{
+	height: 200px;
+	border-radius: 30px;
+	border: 2px solid sandybrown;
+
+	
+}
+.gallery img:hover{
+	transform: scale(1.4);
+	transition-duration: 1.7s;
+	box-shadow: 5px 5px 10px sandybrown;
+	
+}
+.contact{
+	display: flex;
+	justify-content: center;
+}
+.map{
+	width: 70%;
+}
+.form{
+	width: 30%;
+}
+.form input{
+	width: 95%;
+	height: 35px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.form textarea{
+	width: 95%;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.cele{
+	display:flex;
+	justify-content: center;
+	/*margin: 20px;*/
+	background: pink;
+	padding: 40px 0px 40px 0px;
+}
+.cele div{
+	width: 17%;
+	margin: 10px;
+	color: orangered;
+}
+.cele img{
+	/*width: 250px;
+	height: 250px;*/
+	border-radius: 50%;
+	border: 2px solid sandybrown;
+}
+.video{
+	display: flex;
+	justify-content: center;
+
+}
+.video div{
+	width: 40%;
+	margin: 20px;
+	margin-top: 30px;
+}
+
+
+}
+.footer{
+	text-align: center;
+	background: pink;
+	color: #fff;
+	line-height: 100px;
+}
+.top{
+	background: #222;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 5px solid #bbb;
+	right: 20px;
+	bottom: 20px;
+	position: fixed;
+}
+/*written by myself*/
+/*.button button{
+	text-align: center;
+	background: black;
+	color: white;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 50%;
+	border: 5px solid grey;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+footer{
+	background: pink;
+	padding: 15px;
+	text-align: center;
+	color: orangered;
+*/
