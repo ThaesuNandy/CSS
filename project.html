@@ -5,7 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+ integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" 
+ referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 
@@ -30,18 +34,18 @@
 <!-- --------welcome------------- -->
 <div class="welcome">
 	<div>
-		<h1>Welcome to PetZoo</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<h1 data-aos="fade-right" data-aos-duration=1000>Welcome to PetZoo</h1>
+		<p data-aos="fade-right" data-aos-duration=1000 data-aos-delay=1000>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<button>See More</button>
-		<button>Go Shop</button>
+		<button data-aos="fade-right" data-aos-duration=1000 data-aos-delay=1500>See More</button>
+		<button data-aos="fade-left" data-aos-duration=1000 data-aos-delay=2000>Go Shop</button>
 	</div>
 	<div>
-		<img src="img/4.jpg" width="100%">
+		<img src="img/4.jpg" width="100%" data-aos="fade-left" data-aos-duration=1000 data-aos-delay=2500>
 	</div>
 </div>
 
@@ -174,7 +178,9 @@
 <div class="footer">
 	<b>Copyright By Lobelia Students</b>
 </div>
+
 </body>
+
 <!-- ------------------------------footer--------------- -->
 <!-- <footer>
 			<p><b>Copyright by Lobelia Students</b></p>
@@ -183,4 +189,17 @@
 			</div>
 	
 </footer> -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script type="text/javascript">
+	// All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 3000,
+	speedAsDuration: true
+});
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
